@@ -64,3 +64,6 @@ if wall.lower() == "fancy":
     drawBrickWallOffset(rows,cols,brickWidth,brickHeight,mortarWidth)
 if wall.lower() == "simple":
     drawBrickWall(rows,cols,brickWidth,brickHeight,mortarWidth)
+
+#drawBrickWallOffset(6, 6, 50, 25, 8)
+turtle.done()
